@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Welcome to SunPalace Resort</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+
+<div class="hero">
+    <ul>
+        <li><a href="#header">HOME</a></li>
+        <li><a href="#services">SERVICES</a></li>
+        <li><a href="#rooms">ROOMS</a></li>
+        <li><a href="#customers">CUSTOMERS</a></li>
+    </ul>
+</div>
+<!--header section-->
+<header class="header"id="header">
+    <div class="header-top">
+        <div class="site-name">
+            <span>SunPalace</span>
+        </div>
+        <div class="site-nav">
+            <span id="menu-btn">MENU<i class="fa fa-bars"></i></span>
+        </div>
+    </div>
+    <div class="header-bottom flex">
+        <h2>NICE AND COMFORTABLE PLACE TO STAY</h2>
+        <p>Welcome to SunPalace Restaurant. We provide the best services in town. Looking forward in seeing you</p>
+         <button type="button"class="head-btn"><a href="#footer">GET STARTED</a></button>
+    </div>
+</header>
+<!--header ends-->
+
+
+<!--sidenav-->
+      <div class="sidenav" id="sidenav">
+    <span class="cancel-btn" id="cancel-btn"><i class="fa fa-times"></i></span>
+         <ul class="navbar">
+             <li><a href="#header">HOME</a></li>
+             <li><a href="#services">SERVICES</a></li>
+             <li><a href="#rooms">ROOMS</a></li>
+             <li><a href="#customers">CUSTOMERS</a></li>
+         </ul>
+          <button class="btn sign-up">Sign Up</button>
+          <button class="btn log-in">Log In</button>
+      </div>
+
+    <div id="modal">
+
+    </div>
+
+<!--services-->
+<section class="services sec-width" id="services">
+     <div class="title">
+         <h2>SERVICES</h2>
+     </div>
+    <div class="services-container">
+     <!-- single business-->
+        <article class="services">
+            <div class="service-icon">
+                <span><i class="fa fa-coffee"></i></span>
+            </div>
+            <div class="service-content">
+                <h2>Food service/Food runner</h2>
+                <p>We provide food and catering services inside and outside the hotel. Catering operations are done by professionals and chefs that are highly trained
+                </p>
+                <button type="button"class="btn">Explore</button>
+            </div>
+        </article>
+        <!--end of single business-->
+        <!-- single business-->
+        <article class="services">
+            <div class="service-icon">
+                <span><i class="fa fa-bath"></i></span>
+            </div>
+            <div class="service-content">
+                <h2>Refreshment</h2>
+                <p>Refreshments are drinks and small amounts of food that are provided, we have swimming pools around, beautiful lake shore that provide cool breeze around the hotel. During meetings that are held in our hotel,lunch and drinks are provided for refreshment.
+                </p>
+                <button type="button"class="btn">Explore</button>
+            </div>
+        </article>
+        <!--end of single business-->
+        <!-- single business-->
+        <article class="services">
+            <div class="service-icon">
+                <span><i class="fa fa-user-md"></i></span>
+            </div>
+            <div class="service-content">
+                <h2>Housekeeping</h2>
+                <p>Housekeeping is an operational department in our hotel,
+                    which is responsible for cleanliness, maintenance, aesthetic upkeep of rooms, public area, back area and surroundings. A hotel survives on the sale of room, food, beverages and other minor services such as the laundry, health club spa and so on.</p>
+                <button type="button"class="btn">Explore</button>
+            </div>
+        </article>
+        <!--end of single business-->
+        <!-- single business-->
+        <article class="services">
+            <div class="service-icon">
+                <span><i class="fa fa-lock"></i></span>
+            </div>
+            <div class="service-content">
+                <h2>Room Security</h2>
+                <p> Secure rooms are often used for the storage of sensitive information or large assets.
+                    We have rooms that are primarily designed to protect against surreptitious attack,
+                    but may offer some resistance to forcible entry and slowing a marauding terrorist attacks.</p>
+                <button type="button"class="btn">Explore</button>
+            </div>
+        </article>
+        <!--end of single business-->
+    </div>
+</section>
+
+<div class="book">
+    <form class="book-form">
+        <div class="form-item">
+            <label for="checkin-date">Check In Date:</label>
+            <input type="date"id="checkin-date">
+        </div>
+        <div class="form-item">
+            <label for="checkout-date">Check Out Date:</label>
+            <input type="date"id="checkout-date">
+        </div>
+        <div class="form-item">
+            <label for="adult">Adult:</label>
+            <input type="number"min="1"value="1"id="adult">
+        </div>
+        <div class="form-item">
+            <label for="children">Children:</label>
+            <input type="number"min="1"value="1"id="children">
+        </div>
+        <div class="form-item">
+            <label for="rooms">Rooms:</label>
+            <input type="number"min="1"value="1"id="rooms">
+        </div>
+        <div class="form-item">
+            <input type="submit"value="Book Now"class="btn">
+        </div>
+
+    </form>
+</div>
+
+<section class="rooms sec-width" id="rooms">
+    <div class="title">
+        <h2>ROOMS</h2>
+    </div>
+    <div class="rooms-container">
+     <!-- single rooms-->
+
+        <article class="room">
+            <div class="room-image">
+                <img src="img/room.png" alt="Room image">
+            </div>
+            <div class="room-text">
+                <h3>Best room services</h3>
+                <ul>
+                    <li>
+                        <i class="fa fa-arrow-circle-right"></i>
+                        Pool-outdoor
+                    </li>
+                    <li>
+                        <i class="fa fa-arrow-right"></i>
+                        Family services
+                    </li>
+                    <li>
+                        <i class="fa fa-arrow-right"></i>
+                        Free parking
+                    </li>
+                </ul>
+                <p>We have a beautiful swimming pool behind the rooms,beautiful lake shore less than 100M from the hotel</p>
+                <p>We also have baby sitting services(family services),free parking slot and satisfying room services</p>
+                <p class="rate">
+                    <span>$99.00/</span>Per Night
+                </p>
+                <button type="button"class="btn">Book Now</button>
+            </div>
+
+        </article>
+     <!--end single rooms-->
+        <!-- single rooms-->
+
+        <article class="room">
+            <div class="room-image">
+                <img src="img/room1.png" alt="Room image">
+
+            </div>
+            <div class="room-text">
+                <h3>Luxury Rooms</h3>
+                <ul>
+                    <li>
+                        <i class="fa fa-arrow-circle-right"></i>
+                        Pet friendly
+                    </li>
+                    <li>
+                        <i class="fa fa-arrow-right"></i>
+                        Affordable prices
+                    </li>
+                    <li>
+                        <i class="fa fa-arrow-right"></i>
+                        Good air conditioning
+                    </li>
+                </ul>
+                <p>Beautiful rooms that are pet friendly,smoking-free zone,affordable and the coolest place with good air conditioning</p>
+                <p>We also have free Wi-Fi and entertainment rooms for our customers</p>
+                <p class="rate">
+                    <span>$80.00/</span>Per Night
+                </p>
+                <button type="button" class="btn">Book Now</button>
+            </div>
+
+        </article>
+        <!--end single rooms-->
+    </div>
+
+</section>
+
+
+<section id="customers"class="customers">
+    <div class="sec-width">
+        <div class="title">
+            <h2>CUSTOMERS</h2>
+        </div>
+        <div class="customers-container">
+<!--            single customer-->
+            <div class="customer">
+                <div class="rating">
+                    <span><i class="fa fa-star"></i></span>
+                    <span><i class="fa fa-star"></i></span>
+                    <span><i class="fa fa-star"></i></span>
+                    <span><i class="fa fa-star"></i></span>
+                    <span><i class="fa fa-star-o"></i></span>
+                </div>
+                <h3>We loved it</h3>
+                <p>Actually this was the most welcoming hotel we have ever visited. Pure greatness</p>
+                <img src="img/cus.png" alt="customer image">
+                <span>Brucelee Muneria,Kenya</span>
+            </div>
+
+
+<!--            end single customer-->
+            <!--            single customer-->
+            <div class="customer">
+                <div class="rating">
+                    <span><i class="fa fa-star"></i></span>
+                    <span><i class="fa fa-star"></i></span>
+                    <span><i class="fa fa-star"></i></span>
+                    <span><i class="fa fa-star"></i></span>
+                    <span><i class="fa fa-star-o"></i></span>
+                </div>
+                <h3>Comfortable place</h3>
+                <p>The first 3 days was like 3 hours,good services,good air conditioning. The place was awesome</p>
+                <img src="img/cus1.png" alt="customer image">
+                <span>Ernest Eseli,Uganda</span>
+            </div>
+            <!--            end single customer-->
+            <!--            single customer-->
+            <div class="customer">
+                <div class="rating">
+                    <span><i class="fa fa-star"></i></span>
+                    <span><i class="fa fa-star"></i></span>
+                    <span><i class="fa fa-star"></i></span>
+                    <span><i class="fa fa-star"></i></span>
+                    <span><i class="fa fa-star-o"></i></span>
+                </div>
+                <h3>A place to be</h3>
+                <p>I was attended in a coolest way that I will never forget,beautiful waiters for a man like me. That's a place every man should have a visit</p>
+                <img src="img/cus2.png" alt="customer image">
+                <span>Keith Wambalo,Tanzania</span>
+            </div>
+            <!--            end single customer-->
+
+        </div>
+    </div>
+</section>
+
+
+<footer class="footer" id="footer">
+    <div class="footer-container">
+        <div>
+            <h2>ABOUT US</h2>
+            <p> We provide customers with shelter, food, refreshment, and similar services and goods, offering on a commercial basis things that are customarily
+                furnished within households but unavailable to people on a journey away from home.</p>
+        <ul class="social-icons">
+            <li class="flex"><i class="fa fa-twitter fa-2x"></i></li>
+            <li class="flex"><i class="fa fa-facebook fa-2x"></i></li>
+            <li class="flex"><i class="fa fa-instagram fa-2x"></i></li>
+        </ul>
+        </div>
+        <div>
+            <h2>Useful links</h2>
+            <a href="#">Blog</a>
+            <a href="#">Rooms</a>
+            <a href="#">Subscription</a>
+            <a href="#">Gift Card</a>
+        </div>
+        <div>
+            <h2>Privacy</h2>
+            <a href="#">Career</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Services</a>
+        </div>
+        <div>
+            <h2>Have a Question</h2>
+            <div class="contact-item">
+                <span><i class="fa fa-map-marker"></i></span>
+                <span>
+                    485G+H33, Ouma's, KENYA
+                </span>
+            </div>
+            <div class="contact-item">
+                <span><i class="fa fa-phone"></i></span>
+                <span>
+                    +254717805360
+                </span>
+                <div class="contact-item">
+                    <span><i class="fa fa-envelope"></i></span>
+                    <span>
+                    scanford@gmail.com
+                    </span>
+            </div>
+        </div>
+
+
+
+    </div>
+</footer>
+<script src="https://use.fontawesome.com/fcd40d745f.js"></script>
+
+</body>
+</html>
